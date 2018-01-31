@@ -2,8 +2,8 @@ body {
     background-color: #777;
     width: 960px;
     font-size: 18px;
+    margin-left: 200px;
     border: 10px;
-
 }
 
 .header {
@@ -20,48 +20,60 @@ body {
     text-align: center;
     height: 90px;
     border: 10px;
-
 }
 
 .section{
     width: 495px;
-    background-color: #ebebeb;
-    font-family: arial;
-    text-align: center;
-
-}
-.article{
+    height: 280px;
     background-color: #ebebeb;
     font-family: arial;
     text-align: center;
     border: 10px;
-
+    position: relative
+}
+.article{
+    background-color: #777;
+    font-family: arial;
+    text-align: center;
+    border: 10px;
+    padding: 10px;
+    height: 210px;
+    width: 400px;
+    position: relative;
+    left: 35px;
 }
 
 .h2{
-    background-color: #777;
+    background-color: #ebebeb;
     font-family: arial;
     text-align: center;
-
+    position: relative;
 }
 
 .p{
-    background-color: #777;
+    background-color: #ebebeb;
     font-family: arial;
-    text-align: center;
+    text-align: center; 
+    position: relative;
+    top: 40px;
 }
 
 .aside{
-    background-color: #777;
+    background-color: #ebebeb;
     font-family: arial;
     text-align: center;
-    
-
+    height: 275px;
+    width: 445px;
+    border: 10px;
+    float: right;
+    position: relative;
+    bottom: 275px;
 }
 
 .footer{
-    background-color: #777;
+    background-color: #ebebeb;
     font-family: arial;
-    text-align: center;
+    text-align: right;
+    height: 90px;
     border: 10px;
 }
